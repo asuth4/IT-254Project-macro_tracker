@@ -1,3 +1,45 @@
-# IT-254Project-macro_tracker
-The goal of this project is to create a fast and easy way to check the nutrition information of foods using machine learning.  We plan to use chat-GPT's API tokens to allow prompting within our program.  Paired with Arduino, this program will read out the nutrition to the user.  Hardware: arduino board, laptop with camera, speaker attachment.
-For our food identification model we used: google/vit-base-patch16-224 
+# Macronutrients-counter-ai
+IT Project 
+
+In this project we are going to make an AI Macronutrient counter. The goal is to have be able to put food in front of a camera and have the model recognize the food and use OpenAI to find the macronutrients and light up designated lights to signal if the food has the recommended amount of protein, carbohydrates or fats.
+
+Food recognition model:
+
+     - nateraw/vit-base-food101
+
+ Upload Arduino Code:
+
+
+     -The code will display the proteins, fats and carboohydrates on a screen.
+
+Connect Python code to Arduino:
+
+     -Put Python code into Visual Studio Code
+     
+
+     -Code should reference the food recognition model and OpenAI's 3.5 model to classify the food and estimate macronutrients.
+
+Systems used:
+
+     -Python 3.12
+
+
+     -PyTorch
+
+
+     -Arduino IDE
+
+
+     -Ardiuno Mega 2560
+
+
+     -OpenCV
+
+
+     -PySerial
+
+     -Groq Llama-3.1-8b-instant
+     
+ Instruction video:  
+     
+     Python Video: https://www.youtube.com/watch?v=FVew1etwnAA
